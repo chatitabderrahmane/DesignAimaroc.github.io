@@ -1,283 +1,287 @@
-
-<!DOCTYPE html>
+ 
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   
+  <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai DESOGN maroc</title>
+    <link rel="icon" href="images/icones/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/profile.png">
-
-    <title>abderrahmane chatit</title>
-  </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+ 
+</head>
 <body>
-
-  <nav class="">
-    <nav class="navbar navbar-expand-lg shadow  fixed-top bg-white ">
-      <div class="container">
-        <a class="me-navbar-brand navbar-brand   text-danger" href="index.html">AB.CH</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto ">
-            <li class="nav-item">
-              <a class="text-danger me-nav-link nav-link  " aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="me-nav-link nav-link" href="#Projects">Projects</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="me-nav-link nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               services
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="me-dropdown-item dropdown-item " href="/pages-services/websiteapp.html">website developpement</a></li>
-                <li><a class="me-dropdown-item dropdown-item" href=" /pages-services/Data-sience.html">Data sience</a></li>
-                <li><a class="me-dropdown-item dropdown-item" href="/pages-services/ problem-solving.html">Problem solving </a></li>
-                <li><a class="me-dropdown-item dropdown-item" href=" /pages-services/GraphicDesign.html">Graphic-Design </a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="  nav-link me-nav-link" href="/pages-blog/Blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a style="background-color: #dc3545;" class="btn    text-white me-nav-link nav-link" href="index.html/#contact">Contact</a>
-            </li>
-      
-          </ul>
+     <!-- Home-->
+      <div class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container text-white ">
+             <a href="index.php" class="navbar-brand text-info"><img src="" alt="">Ai Au Maroc | الذكاء الاصطناعي <em><img style="width: 40px;" src="Images/icones/icon.png" alt=""></em></a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" ><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse "id="mainmenu" >
+                 <ul class=" navbar-nav ms-auto">
+                    <li class="  nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">À propos </a></li>
+                    <li class="nav-item"><a href="#Gallerie" class="nav-link">Gallerie</a></li>
+                    <li class="nav-item"><a href="#contact"class="nav-link">Contacter</a></li>
+                </ul>
+          </div>   
         </div>
-      </div>
-    </nav>
-   </nav>
-
-
-     <section class=" hero">
-         <div class=" container"> 
-            <h4 class=" display-6 text-white" >Hello i'm a</h4>
-            <h1 class=" display-3  Bold text-danger hero-title">Full Stack Developer</h1>
-            <p  class="hero-desc text-white">I build website app and more </p>
-             <button type="button" href="/index.html/#proget" class=" btn btn-danger text-white">view my work</button>
-             <ul class="d-flex p-2 ">
-              <li class="nav-link  "><a href="#"><i class="p-2 text-white fa-brands fa-instagram"></i></a></li>
-              <li class="nav-link   "><a href="https://github.com/chatitabderrahmane"><i class="p-2 text-white fa-brands fa-github"></i></a></li>
-              <li class="nav-link  "><a href="https://www.linkedin.com/in/abderrahmane-chatit-62318b21a/"><i class="p-2 text-white fa-brands fa-linkedin"></i></a></li> 
-             </ul>
-         </div>
-     </section>
-     <section class="text-center  alert alert-warning" role="alert" >
-        Portfolio Website version Beta , In progress....... Stay Tuned 😃 
-      </section>
-    <section class="services py-4" id="services">
-      <h1 class="text-center  title">services</h1>     
-      <div style="display: flex; align-items: center;flex-wrap: wrap; justify-content: center"  class="container py-4">
-             
-
-             <!-- <div class="row services-itemes"> -->
-                <div class="services-iteme">
-                         <div class=" ltr-effect p-2 m-2   shadow text-center  align-items-center jusify-content-center">
-                 <a href="/pages-services/GraphicDesign.html" class="py-4 text-dark">
-                  <i class="service-icon fa-solid fa-pen-ruler"></i>
-                  <h2  >
-                    Graphic Design
-                  </h2>
-                  <p>    I can create differnte element by Graphic design as UI/UX logo,flyer etc .</p>
-                 </a>
-                </div>
-                </div>
-         
-                <div class="services-iteme">
-                  <div  class="  ltr-effect p-2 m-2   shadow text-center  align-items-center jusify-content-center">
-                    <a href="/pages-services/websiteapp.html" class="align-items-center  jusify-content-center  text-dark">
-                     <i class="  service-icon fa-solid fa-code"></i>
-                     <h2 >website developpement</h2>
-                     <p>I build Dynamic website for E-comerce, Company , Portfolio ... using latest thecnologies </p> 
-                    </a>
-                   </div>
-                </div>
-               
-            <!-- </div> -->
-            <!-- <div class="row  services-itemes"> -->
-             <div class="services-iteme">
-              <div  class=" ltr-effect p-2 m-2    shadow text-center  align-items-center jusify-content-center">
-                <a href="/pages-services/Data-sience.html" class="align-items-center  jusify-content-center  text-dark">
-                  <i class=" service-icon fa-solid fa-database"></i>
-                  <h2>Data sience</h2>
-                  <p> It involves the use of techniques  can be applied in various fields to
-                    help organizations make data-driven decisions and predict 
-                    future trends, </p>
-                </a>
-                </div>
-             </div>
-               <div class="services-iteme">
-                <div class="  ltr-effect p-2 m-2   shadow text-center  align-items-center jusify-content-center">
-                  <a href="/pages-services/problem-solving.html" class=" text-dark"  >
-                   <i class="service-icon fa-solid fa-circle-exclamation"></i>
-                   <h2  >Problem Solving</h2>
-                   <p  >I can Help you  to get solution or approach it of any problem including 
-                    languageS of programing or analysis ... and also teach you  </p>
-   
-                  </a>
-                 </div>
-               </div>
-            <!-- </div> -->
-              
-            
-
-            </div>
-    </section>
-    <section class="start-project">
-      <div class="py-5 container     ">
-             <h2 class="text-center">Are you working on a project? If so, please contact us. We will be happy to assist you.
-             </h2>
-             <div class="start-project-btn py-3">
-             <a href="index.html" class="  btn btn-danger  px-5 py-2 text-white ">start a project</a>  
-             </div>
-      </div>
-    </section>
-    <h1 id="proget"  class="text-center  title">Projects</h1>     
-  <section class="container  Project"> 
-             
-    <div class="Project-item">
-      <div class="Project-img" >
-          <img src="images/gestion conge1.png" alt="">
-     </div>
-     <div class="Project-info">
-      <h4 class="project-Titre ">gestion Conge</h4>
-       <p class="project-Categories">loren jrefjv</p> 
-      <a href="#"    class="Project-btn">View Details</a>
-      <a href="#" class="Project-btn-prev Project-btn">Previews</a> 
     </div>
-  </div>
-          <div class="Project-item">
-            <div class="Project-img" >
-                <img src="images/ai maroc1.png" alt="">
-           </div>
-           <div class="Project-info">
-            <h4 class="project-Titre "> Ai maroc services website</h4>
-             <p class="project-Categories">loren jrefjv</p> 
-            <a href="" class="Project-btn">View Details</a>
-            <a href="https://designaimaroc.000webhostapp.com" class="Project-btn-prev Project-btn">Previews</a> 
-          </div>
+    <section class="bg-danger text-light text-center py-5    text-sm-start " id="home">
+                
+        <div class="container ">
+            <div class="d-md-flex  ">
+                <div class="text-sm-start">
+                    <h1 class="py-5" >  TKHAYEL Li Fbalek , <span class="text-info"> E7na Nafde  </span> </h1>
+                    <p  class="lead  display-6"> Permet le meilleur plateforme au maroc qui offre des photo manipulations par la Nouvelle technologies intelligence artificielle <span class="text-info"> AI </span>
+                         dans le moins de temps possible 
+                                        </p>
+                    <a href="#contact"   class="btn btn-info py-3 m-2 text-white  fs-4  px-5 btn btn-info" >Yallah TKHAYEL..</a>
+                </div>
+                <img class=" img-fluid " src="images/fish man.png" alt="">
+                        
+            </div>
         </div>
-          <div class="Project-item">
-            <div class="Project-img" >
-                <img src="images/e-comerce.png" alt="">
-           </div>
-           <div class="Project-info">
-            <h4 class="project-Titre ">E-comerce website</h4>
-             <p class="project-Categories">loren jrefjv</p> 
-            <a href="" class="Project-btn">View Details</a>
-            <a href="https://github.com/chatitabderrahmane/MultiChop_Ecomerce" class="Project-btn-prev Project-btn">Source code</a> 
-          </div>
-        </div>
-        <a href="" class="btn btn-danger text-center">View More</a>
-  </section>
+    </section>
 
-<!--     
-    <section class="py-4 projects" id="Projects">
-      <h2 class="py-4  title text-center text-danger">Projects</h2>
-     
-      <div class="content">
-          <div class="project-card shadow">
-              <div class="project-image">
-                  <img src="images/AB.CH black.png" />
-              </div>
-              <div class="project-info">
-                  <p class="project-category">Script Writing & Video Production</p>
-                  <strong class="project-title">
-                      <span>Dev Books</span>
-                      <a href="#" class="more-details">More details</a>
-                  </strong>
-              </div>
-          </div>
-          <div class="project-card">
-              <div class="project-image">
-                  <img src="images/AB.CH black.png" />
-              </div>
-              <div class="project-info">
-                  <p class="project-category">Script Writing & Video Production</p>
-                  <strong class="project-title">
-                      <span>Dev Books</span>
-                      <a href="#" class="more-details">More details</a>
-                  </strong>
-              </div>
-          </div>
-          <div class="project-card">
-              <div class="project-image">
-                  <img src="images/AB.CH black.png" />
-              </div>
-              <div class="project-info">
-                  <p class="project-category">Script Writing & Video Production</p>
-                  <strong class="project-title">
-                      <span>Dev Books</span>
-                      <a href="#" class="more-details">More details</a>
-                  </strong>
-              </div>
-          </div>
-        </div>
-        <div class="Project-viewmore">
-        <a href="" class="text-center -5 btn btn-danger">View More</a>
-        
-        </div>
-  </section> -->
-  
-  <section class="py-5 Technologies">
-         <div class="container">
-          <h1 class="text-center text-danger title"> Technologies</h1>
-            <div class="Technologies-items">
-                 
-                  <img src="images/technologies/html5.png" alt="html5">
-                 
-                 <img src="images/technologies/css3.png" alt="css3">
-                 <img src="images/technologies/js.png" alt="js">
-                 <img src="images/technologies/c sharp .png" alt="c#">
-                 <img src="images/technologies/asp.net.png" alt="asp.net">     
-                 <img src="images/technologies/php.png" alt="php">
-                 <img src="images/technologies/react js.png" alt="react js">
-                 <img src="images/technologies/sql server.png" alt="sql server">
-                 <img src="images/technologies/oracle.png" alt="oracle">
-                 <img src="images/technologies/wordpress.png" alt="wordpress">
-                 <img src="images/technologies/woocomerce.png" alt="woocomerce">
-                 <img src="images/technologies/google_analytics.png" alt="google_analytics">
-            </div>  
-        </div>
-  </section>
+    <section id="about">
+        <div class="container py-5">
+            <h1 class="text-center py-5" >   Pourquoi <span class="text-info">  nous ?| </span> لماذا نحن</h1>
+            <div class="row  align-items-center justify-content-center">
+                <div class="a border border-2 col text-center  py-3  bg-info  m-2 ">
+                  <img src ="images/icones/check.png" alt="">
 
-  <section class="py-5 "id="contact" >
-         <div class="container">
-          <H1 class="title text-danger">Contact</H1>
-          <p>Fell free to contact me</p>
-          <div class="contact">
+                    <div> 
+                       <h3 class="px-3">Creativite  | الإبداع</h3>
+                       <p class="lead">Nous vous fournirons notre meilleur</p>      
+                    </div> 
+                </div>
+                <div class="a border border-2 col text-center   py-3   bg-info  m-2 ">
+                  <img src="images/icones/hour-glass.png" alt="">
+
+                    <div> 
+                       <h3 class="px-3">Rapidite|السرعة </h3>
+                       <p class="lead">
+                        Nous vous servirons dans les plus brefs délais au plus tard 24h</p>      
+                    </div> 
+                </div>
+                <div class="a border border-2 col text-center py-3  bg-info  m-2 ">
+                  <img src="images/icones/money.png" alt="">
+                  <div> 
+                       <h4 class=" px-3">Prix raissonables|الثمن</h4>
+                       <p class=" lead h4">Nous vous proposerons les meilleures offres à un prix abordable, à partir de  15 dh</p>      
+                    </div> 
+                </div>
+                <div class="a border border-2 col text-center  py-3 bg-info  m-2 ">
+                  <img src="images/icones/call-center.png " class="w-32" alt="">
+
+                    <div> 
+                       <h3 class="px-3">الدعم|Support</h3>
+                       <p class="lead">
+                        Nous avons un groupe qui aime son travail et est à votre service 24h/24</p>      
+                    </div> 
+                </div>
+            </div>
          
-           <div class="p-2 right-side" >
-                <form action="">
-                <label for="">Name <span>*</span></label>
-                <input class="frm" type="text" name="Name" placeholder="Name*">
-                <label for="">Email <span>*</span></label>
-                <input class="frm" type="text" name="Email"  placeholder="Email*">
-                <label for="">Message <span>*</span></label>
-                <textarea class="frm" type="text" rows="5"  placeholder="message*"></textarea>
-                <button class="btn btn-danger">Send<i class="px-2  fa-solid fa-paper-plane"></i></button>
+        </div>
+
+    </section>
+    <section class=" " id="about"> 
+        <div class="container py-5  ">
+             <div class=" py-4 text-sm-start text-white bg-danger   d-md-flex" >
+              
+                <img src="images/Before.png"class="px-5 img-fluid" alt="">
+
+                   <div>
+                    <h1 class=" m-5  text-sm-start py-2"   >C'est quoi L'intelligence artificielle ? </h1>
+                    <p class="m-5  lead">l'intelligence artificielle (IA), la capacité d'un ordinateur numérique ou d'un robot contrôlé par ordinateur à effectuer des tâches communément associées à des êtres intelligents. Le terme est fréquemment appliqué au projet de développement de systèmes avec les processus intellectuels caractéristiques des humains, tels que la capacité de raisonner, de découvrir un sens, de généraliser
+                         ou d'apprendre de l'expérience passée.      </p>
+                   </div>
+
+             </div> 
+
+        </div>
+ </section>
+    <section>
+        <div class=" my-2 container align-items-center justify-content-center">
+               <h3 class="text-center py-4">Les Etapes a suivre pour <span class="text-info">demander un design | </span>  (ي)أشنوا خاصك دير  </h3>
+                <div class="d-md-flex text-center py-5">
+                <div class="mx-5 py-3 ">
+                           <i class=" display-2 text-info bi bi-1-circle-fill"></i>
+                           <h4  >توجه(ي) لأسفل الصفحة (تواصل معنا)</h4> 
+                           <h6>
+                            (Dirigez-vous vers le bas de la page Contact)</h6>
+                       </div> 
+                
+                  <div class="mx-5 py-3   ">
+                        <i class=" display-2 text-info bi bi-2-circle-fill"></i>
+                        <h4 > أكتب لي بغيتي نصايبوه ليك في خانة الرسالة</h4>
+                        <h6>(Écrivez ce que vous voulez dans le champ de description)</h6>
+                  </div>
+                  <div class="mx-5 py-3  ">
+                    <i class=" display-2 text-info bi bi-3-circle-fill"></i>
+                    <h4  > دبا معليك(ي) غير تسنا باش نردوا عليك في أقرب وقت ممكن</h4>
+                    <h6>(Il ne vous reste plus qu'à attendre une réponse dans les plus brefs délais)</h6>
+                  </div>
+            
+                </div>
+        </div>
+    </section>
+    <style>
+        .a{
+            border-radius: 20px;
+        }
+        h1::after{
+            display: block;
+            width: 5px;
+            height: 10px;
+            color: blue;
+        }
+       
+         
+ 
+</style>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+ 
+    
+    .rowc {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 35%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    a{
+        text-decoration: none;
+    }
+    </style>
+
+ <section  id="Gallerie">
+    <div class="py-5 container">
+               
+          <h1  class="text-center py-5"><span class="text-info">Gallerie | </span>نبذة عنا</h1>
+          <div class="rowc">
+              <div class="column">
+                <img src="images/Capture d’écran 2023-01-07 172936.png" style="width:100%" alt="">
+                <img src="images/man baby shark.png" alt="">
+                <img src="images/girafe.png" alt="">
+            </div>
+            <div class="column">
+                <img src="images/Capture d’écran 2023-01-07 173222.png" alt="" style="width:100%">
+                <img src="images/dog in a car.png"style="width:100%" alt=""> 
+                <img src="images/Airbus design inspired by cat anatomy..png" alt="">
+        </div>
+        <div class="column">
+            <img  src="images/fils.png" alt=""style="width:100%">
+            <img src="images/Capture d’écran 2023-01-07 173026.png" alt="" style="width:100%">
+            <img src="images/kser.png" alt="">
+        </div>
+          </div>      
+    </div>
+ </section>
+ 
+<section id="contact" >
+<script src="">
+
+
+     document.getElementsByName("myform").onsubmit = function (event) {
+      var name = document.getElementsByName("name").value;
+    var type_design = document.getElementsByName("ld").value;
+    var email = document.getElementsByName("email").value;
+    var msg = document.getElementsByName("email").value;
+       
+        alert("Bonjour "+name)
+    
+};
+    </script>
+<div class=" py-5 container lead  ">
+    <h1  class=" text-center  py-4"><span class="text-info"> Contact |  </span> بغيتي تصميم؟  تواصل معانا  </h1>
+              <form class="text-white  bg-danger p-5" name="myform" action="" method="post">
+                 <div class="form-group">
+                      <h2 class="">Email Adress <span class="text-info">*</span></h2>
+                       <input required placeholder="ex email@gmail.com"  class="form-control" type="email" name="email"  id="email">
+                    </div>
+                 <div class="form-group">
+                    <h2 class="">Nom <span class="text-info">*</span></h2>
+                    <input placeholder="entrer votre Nom" name="name" id="name"    required class="form-control" type="text">
+               </div>
+               <div class="form-group">
+                <h2 class="">Type Design <span class="text-info">*</span></h2>
+                <select class="form-select" name="ld" id="type_design" aria-label="Default select example">
+                  <option selected>choisir le design souhaite - اختر نوع التصميم</option>
+                  <option value="Profile | تعديل صورة  شخص ">Profile | تعديل صورة  شخص </option>
+                  <option value="photo manipulation |تصميم  صورة ">photo manipulation |تصميم  صورة  </option>
+                  <option value="Flyer | ملصقة<">Flyer | ملصقة</option>
+                  <option value="Logo | شعار">Logo | شعار</option>
+                  <option value="Autre|اخر">Autre|اخر</option>
+                </select>         
+               </div>
+              
+               <div class="form-group">
+                <h2 class=""> message <span class="text-info">*</span></h2>
+                <textarea required  value=""  placeholder="details de votre imagine" required class="form-control" name="message"   cols="30" rows="10"></textarea>
+                 <!-- <button   name="contact_btn" type="submit" class=" m-2 px-3  py-2  btn btn-info text-white justify-content-center align-items-center ">Envoyer</button> -->
+             <input type="submit" class="btn btn-primary" value="envoyer" >
+                
+ 
+                </div>
               </form>
-           </div>
-           <div class=" p-2 left-side">
-            <h2 >Let's talk about your next project</h2>  
-            <p>If you are interested in my work, please don't hesitate to contact me. You can reach me at the phone number and email listed below. I would be happy to discuss your project needs and see if I can help bring your ideas to life.</p>
-            <i class=" fa-solid fa-envelope"></i> <span>chatitabderrahmane@gmail.com</span> <br>
-            <i class="  fa-solid fa-phone"></i> <span>06 48 31 80 84</span> <br>
-            <i class="  fa-solid fa-location-dot"></i> <span>Casablanca Morocco</span> <br>
-           </div>
-         </div>
          
-         </div>
-  </section>
-  <hr>
-  <footer>
-    <p class="text-center">❤️ Designed & Built By <a href="https://github.com/chatitabderrahmane" >Me</a> 2023 ❤️</p>
-  </footer>
+  
+</section>
+
+  <section class="bg-dark py-5">
+         <div class="container text-center text-secondary">
+                  <h5 class=" text-white ">Designed and developped by 🤍  <a target="_blank" class=" text-info" href="https://www.linkedin.com/in/abderrahmane-chatit-62318b21a/">@Abderrahmane chatit   </a>     </h5>
+                  <ul class=" ms-auto  d-inline-block">
+                    <li class="nav-item  d-inline-block"><a href="#home" class="nav-link">Home | </a></li>
+                    <li class="nav-item  d-inline-block"><a href="termofuse.php" class="nav-link">شروط الاستخدام | </a></li>
+                    <li class="nav-item d-inline-block"><a href="privacy.php" class="nav-link">سياسة الخصوصية   </a></li>
+                 </ul>
+               <a href="#" class="d-block p-4"> <img style="width: 60px;" src="Images/icones/icon.png" alt=""></a>      
+          </div>
+ </section>
+ <div class="position-fixed bottom-0 end-0">
+  <a class="display-6"  href="https://wa.me/+21220834168/?text=salam brit design... "> <img style="width:90px" class="p-3"  src="images/icones/whatsapp.png" alt=""></a>
+</div>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>                 
 </body>
-<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>                
-</html>
+</html> 
